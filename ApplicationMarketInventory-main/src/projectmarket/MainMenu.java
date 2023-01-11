@@ -51,7 +51,7 @@ public class MainMenu extends javax.swing.JFrame {
 
         productTableModel.addColumn("ID");
         productTableModel.addColumn("Product Name");
-        productTableModel.addColumn("Price");
+        productTableModel.addColumn("Harga");
         productTableModel.addColumn("Category");
         productTableModel.addColumn("Stock");
 
@@ -61,7 +61,7 @@ public class MainMenu extends javax.swing.JFrame {
 
         cartTableModel.addColumn("ID");
         cartTableModel.addColumn("Product Name");
-        cartTableModel.addColumn("Price");
+        cartTableModel.addColumn("Harga");
         cartTableModel.addColumn("Category");
         cartTableModel.addColumn("Quantity");
 
@@ -71,9 +71,9 @@ public class MainMenu extends javax.swing.JFrame {
 
         transactionTableModel.addColumn("ID");
         transactionTableModel.addColumn("Product Name");
-        transactionTableModel.addColumn("Price");
+        transactionTableModel.addColumn("Harga");
         transactionTableModel.addColumn("Quantity");
-        transactionTableModel.addColumn("Total Price (with tax)");
+        transactionTableModel.addColumn("Total Harga (with tax)");
 
     }
 
