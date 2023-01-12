@@ -51,7 +51,7 @@ public class MainMenu extends javax.swing.JFrame {
 
         productTableModel.addColumn("ID");
         productTableModel.addColumn("Product Name");
-        productTableModel.addColumn("HARGAAAA");
+        productTableModel.addColumn("Priceeee!!!");
         productTableModel.addColumn("Category");
         productTableModel.addColumn("Stock");
 
